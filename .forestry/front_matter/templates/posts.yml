@@ -17,3 +17,5 @@ fields:
 - type: tag_list
   label: Categories
   name: categories
+pages:
+- _posts/new-post.md
