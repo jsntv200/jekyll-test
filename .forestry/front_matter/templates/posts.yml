@@ -13,7 +13,7 @@ fields:
   label: Date
   config:
     date_format: DD/MM/YYYY
-    display_utc: true
+    display_utc: false
 - type: tag_list
   label: Categories
   name: categories
