@@ -18,4 +18,4 @@ fields:
   label: Categories
   name: categories
 pages:
-- _posts/new-post.md
+- _posts/2018-11-04-new-post.md
