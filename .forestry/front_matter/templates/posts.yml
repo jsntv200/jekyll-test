@@ -1,0 +1,21 @@
+---
+label: Posts
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  label: Title
+  name: title
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: Date
+  config:
+    date_format: DD/MM/YYYY
+    display_utc: false
+- type: tag_list
+  label: Categories
+  name: categories
+pages:
+- _posts/new-post.md
