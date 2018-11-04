@@ -13,4 +13,10 @@ theme: minima
 plugins:
 - jekyll-feed
 - jekyll-menus
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
 timezone: Australia/Sydney
