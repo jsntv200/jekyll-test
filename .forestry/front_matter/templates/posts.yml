@@ -3,6 +3,7 @@ label: Posts
 hide_body: false
 is_partial: false
 fields:
+- type: include
 - type: text
   label: Title
   name: title
@@ -17,7 +18,6 @@ fields:
 - type: tag_list
   label: Categories
   name: categories
-- type: include
 - type: include
   name: layout
   label: Layout
