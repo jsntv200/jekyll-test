@@ -17,5 +17,10 @@ fields:
 - type: tag_list
   label: Categories
   name: categories
+- type: include
+- type: include
+  name: layout
+  label: Layout
+  template: layout
 pages:
 - _posts/2018-11-04-new-post.md
