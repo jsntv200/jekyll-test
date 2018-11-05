@@ -14,3 +14,4 @@ fields:
     - page
     - post
   label: Layout
+  default: default
