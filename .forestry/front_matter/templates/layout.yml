@@ -1,0 +1,16 @@
+---
+label: Layout
+hide_body: true
+is_partial: false
+fields:
+- type: select
+  name: layout
+  config:
+    source:
+      type: simple
+    required: true
+    options:
+    - default
+    - page
+    - post
+  label: Layout
