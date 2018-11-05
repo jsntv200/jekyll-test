@@ -15,5 +15,3 @@ fields:
     - post
   label: Layout
   default: default
-pages:
-- _posts/another-one.md
