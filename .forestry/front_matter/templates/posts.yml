@@ -3,6 +3,7 @@ label: Posts
 hide_body: false
 is_partial: false
 fields:
+- type: include
 - type: text
   label: Title
   name: title
@@ -17,5 +18,9 @@ fields:
 - type: tag_list
   label: Categories
   name: categories
+- type: include
+  name: layout
+  label: Layout
+  template: layout
 pages:
 - _posts/2018-11-04-new-post.md
