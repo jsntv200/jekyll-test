@@ -2,16 +2,24 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: "/admin"
-webhook_url: 
+webhook_url:
 sections:
-- type: jekyll-pages
-  label: Pages
-  create: all
-- type: jekyll-posts
-  label: Posts
-  create: all
+  - type: jekyll-pages
+    label: Pages
+    create: all
+  - type: jekyll-posts
+    label: Posts
+    create: all
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
+build:
+  preview_command: jekyll build --drafts --unpublished --future
+  publish_command: jekyll build
+  output_directory: _site
+  preview_env:
+    - JEKYLL_ENV=staging
+  publish_env:
+    - JEKYLL_ENV=production
