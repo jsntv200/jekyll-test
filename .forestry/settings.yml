@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: true
 admin_path: "/admin"
-webhook_url:
+webhook_url: 
 sections:
 - type: jekyll-pages
   label: Pages
@@ -18,8 +18,8 @@ file_template: ":filename:"
 build:
   preview_command: jekyll build --drafts --unpublished --future --destination _site
   publish_command: jekyll build --destination _site
-  output_directory: _site
   preview_env:
   - JEKYLL_ENV=staging
   publish_env:
   - JEKYLL_ENV=production
+  output_directory: _site
