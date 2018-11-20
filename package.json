@@ -18,7 +18,8 @@
 
     "preview": "yarn preview:webpack && yarn preview:jekyll",
     "preview:webpack": "webpack --mode development",
-    "preview:jekyll": "bundle exec jekyll build --destination _site"
+    "preview:jekyll": "bundle exec jekyll build --drafts --unpublished --future --destination _site"
+
   },
   "babel": {
     "presets": [
