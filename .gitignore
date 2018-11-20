@@ -4,5 +4,6 @@ _site
 .jekyll-cache
 
 node_modules
+_data/webpack.json
 assets/webpack
 yarn-error.log
