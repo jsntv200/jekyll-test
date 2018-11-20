@@ -4,7 +4,7 @@ module.exports = {
   entry: `${__dirname}/_webpack/index.js`,
 
   output: {
-    path: `${__dirname}/_assets/webpack`,
+    path: `${__dirname}/assets/webpack`,
   },
 
   module: {
@@ -24,7 +24,7 @@ module.exports = {
   //   // Output the manifest for jekyll to import
   //   new ManifestPlugin({
   //     fileName: `${__dirname}/_data/webpack.json`,
-  //     publicPath: '/assets/webpack/',
+  //     publicPath: 'assets/webpack/',
   //     writeToFileEmit: true,
   //   }),
   // ]
