@@ -4,7 +4,7 @@ module.exports = {
   entry: `${__dirname}/_webpack/index.js`,
 
   output: {
-    path: `${__dirname}/assets/webpack`,
+    path: `${__dirname}/_assets/webpack`,
   },
 
   module: {
