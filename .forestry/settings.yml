@@ -14,7 +14,7 @@ upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
 use_front_matter_path: false
-file_template: ":year/:filename:"
+file_template: ":year:/:filename:"
 build:
   preview_command: jekyll build --drafts --unpublished --future --destination _site
   publish_command: jekyll build --destination _site
