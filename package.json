@@ -8,9 +8,22 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "yarn compile --mode production",
-    "preview": "yarn compile --mode development",
-    "compile": "webpack _webpack/index.js --output assets/webpack/main.js"
+    "start": "concurrently 'yarn start:webpack' 'yarn start:jekyll'",
+    "start:webpack": "webpack --mode development --watch",
+    "start:jekyll": "bundle exec jekyll serve --livereload",
+
+    "build": "yarn build:webpack && yarn build:jekyll",
+    "build:webpack": "webpack --mode production",
+    "build:jekyll": "bundle exec jekyll build --destination _site",
+
+    "preview": "yarn preview:webpack && yarn preview:jekyll",
+    "preview:webpack": "webpack --mode development",
+    "preview:jekyll": "bundle exec jekyll build --destination _site"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
   },
   "devDependencies": {
     "@babel/core": "^7.1.6",

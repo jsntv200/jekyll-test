@@ -5,3 +5,4 @@ _site
 node_modules
 assets/webpack
 _data/webpack.json
+yarn-error.log

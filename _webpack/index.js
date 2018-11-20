@@ -1,3 +1,3 @@
-const arr = [1, 2, 3];
+const arr = [1, 2, 3, 4, 5];
 const testES6 = () => console.log(...arr);
-console.log(testES6());
+testES6();
