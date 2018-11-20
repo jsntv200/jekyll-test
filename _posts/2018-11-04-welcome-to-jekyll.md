@@ -21,4 +21,4 @@ print_hi('Tom')
 
 Check out the [Jekyll docs](https://jekyllrb.com/docs/home) for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo](https://github.com/jekyll/jekyll). If you have questions, you can ask them on [Jekyll Talk](https://talk.jekyllrb.com/).
 
-![](/uploads/2018/thumb_512_flavor_wheel.png)
+![](/assets/uploads/2018/thumb_512_flavor_wheel.png)
